@@ -17,5 +17,13 @@ namespace OOP_TicTacToe
             InitializeComponent();
         }
 
+        private void button9_Click(object sender, EventArgs e)
+        {
+                  }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
