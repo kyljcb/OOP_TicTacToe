@@ -12,6 +12,10 @@ namespace OOP_TicTacToe
 {
     public partial class Form1 : Form
     {
+
+        bool player_Turn = true;
+        int turn_Count = 0;
+
         public Form1()
         {
             InitializeComponent();
@@ -23,6 +27,20 @@ namespace OOP_TicTacToe
 
         private void Form1_Load(object sender, EventArgs e)
         {
+
+        }
+
+        private void button_Click(object sender, EventArgs e)
+        {
+            Button button = (Button)sender;
+
+            if (player_Turn)
+                button.Text = "X";
+            else
+                button.Text = "O";
+
+            player_Turn = false;
+
 
         }
     }

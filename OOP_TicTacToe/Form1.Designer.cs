@@ -47,6 +47,7 @@ namespace OOP_TicTacToe
             this.button_1.Size = new System.Drawing.Size(100, 100);
             this.button_1.TabIndex = 0;
             this.button_1.UseVisualStyleBackColor = true;
+            this.button_1.Click += new System.EventHandler(this.button_Click);
             // 
             // button_2
             // 
@@ -55,6 +56,7 @@ namespace OOP_TicTacToe
             this.button_2.Size = new System.Drawing.Size(100, 100);
             this.button_2.TabIndex = 1;
             this.button_2.UseVisualStyleBackColor = true;
+            this.button_2.Click += new System.EventHandler(this.button_Click);
             // 
             // button_3
             // 
@@ -63,6 +65,7 @@ namespace OOP_TicTacToe
             this.button_3.Size = new System.Drawing.Size(100, 100);
             this.button_3.TabIndex = 2;
             this.button_3.UseVisualStyleBackColor = true;
+            this.button_3.Click += new System.EventHandler(this.button_Click);
             // 
             // button_4
             // 
@@ -71,6 +74,7 @@ namespace OOP_TicTacToe
             this.button_4.Size = new System.Drawing.Size(100, 100);
             this.button_4.TabIndex = 3;
             this.button_4.UseVisualStyleBackColor = true;
+            this.button_4.Click += new System.EventHandler(this.button_Click);
             // 
             // button_5
             // 
@@ -79,6 +83,7 @@ namespace OOP_TicTacToe
             this.button_5.Size = new System.Drawing.Size(100, 100);
             this.button_5.TabIndex = 4;
             this.button_5.UseVisualStyleBackColor = true;
+            this.button_5.Click += new System.EventHandler(this.button_Click);
             // 
             // button_6
             // 
@@ -87,6 +92,7 @@ namespace OOP_TicTacToe
             this.button_6.Size = new System.Drawing.Size(100, 100);
             this.button_6.TabIndex = 5;
             this.button_6.UseVisualStyleBackColor = true;
+            this.button_6.Click += new System.EventHandler(this.button_Click);
             // 
             // button_7
             // 
@@ -95,6 +101,7 @@ namespace OOP_TicTacToe
             this.button_7.Size = new System.Drawing.Size(100, 100);
             this.button_7.TabIndex = 6;
             this.button_7.UseVisualStyleBackColor = true;
+            this.button_7.Click += new System.EventHandler(this.button_Click);
             // 
             // button_8
             // 
@@ -103,6 +110,7 @@ namespace OOP_TicTacToe
             this.button_8.Size = new System.Drawing.Size(100, 100);
             this.button_8.TabIndex = 7;
             this.button_8.UseVisualStyleBackColor = true;
+            this.button_8.Click += new System.EventHandler(this.button_Click);
             // 
             // button_9
             // 
@@ -111,6 +119,7 @@ namespace OOP_TicTacToe
             this.button_9.Size = new System.Drawing.Size(100, 100);
             this.button_9.TabIndex = 8;
             this.button_9.UseVisualStyleBackColor = true;
+            this.button_9.Click += new System.EventHandler(this.button_Click);
             // 
             // Form1
             // 
