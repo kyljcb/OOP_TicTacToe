@@ -21,10 +21,6 @@ namespace OOP_TicTacToe
             InitializeComponent();
         }
 
-        private void button9_Click(object sender, EventArgs e)
-        {
-                  }
-
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -39,7 +35,9 @@ namespace OOP_TicTacToe
             else
                 button.Text = "O";
 
-            player_Turn = false;
+            player_Turn = !player_Turn;
+            button.Enabled = false;
+            turn_Count++;
 
 
         }
