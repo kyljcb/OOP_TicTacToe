@@ -57,7 +57,22 @@ namespace OOP_TicTacToe
             else if ((button_7.Text == button_8.Text) && (button_8.Text == button_9.Text))
                 check = true;
 
+            // vertical
 
+            if ((button_1.Text == button_4.Text) && (button_4.Text == button_7.Text))
+                check = true;
+            else if ((button_2.Text == button_5.Text) && (button_5.Text == button_8.Text))
+                check = true;
+            else if ((button_3.Text == button_6.Text) && (button_6.Text == button_9.Text))
+                check = true;
+
+            // diagonal
+
+            if ((button_1.Text == button_5.Text) && (button_5.Text == button_9.Text))
+                check = true;
+            else if ((button_9.Text == button_5.Text) && (button_5.Text == button_7.Text))
+                check = true;
+            
             if (check) 
             {
                 string winner = "";
