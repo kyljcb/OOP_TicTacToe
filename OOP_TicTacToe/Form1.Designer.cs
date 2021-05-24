@@ -42,6 +42,7 @@ namespace OOP_TicTacToe
             // 
             // button_1
             // 
+            this.button_1.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button_1.Location = new System.Drawing.Point(12, 50);
             this.button_1.Name = "button_1";
             this.button_1.Size = new System.Drawing.Size(100, 100);
@@ -51,6 +52,7 @@ namespace OOP_TicTacToe
             // 
             // button_2
             // 
+            this.button_2.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button_2.Location = new System.Drawing.Point(118, 50);
             this.button_2.Name = "button_2";
             this.button_2.Size = new System.Drawing.Size(100, 100);
@@ -60,6 +62,7 @@ namespace OOP_TicTacToe
             // 
             // button_3
             // 
+            this.button_3.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button_3.Location = new System.Drawing.Point(224, 50);
             this.button_3.Name = "button_3";
             this.button_3.Size = new System.Drawing.Size(100, 100);
@@ -69,6 +72,7 @@ namespace OOP_TicTacToe
             // 
             // button_4
             // 
+            this.button_4.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button_4.Location = new System.Drawing.Point(12, 156);
             this.button_4.Name = "button_4";
             this.button_4.Size = new System.Drawing.Size(100, 100);
@@ -78,6 +82,7 @@ namespace OOP_TicTacToe
             // 
             // button_5
             // 
+            this.button_5.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button_5.Location = new System.Drawing.Point(118, 156);
             this.button_5.Name = "button_5";
             this.button_5.Size = new System.Drawing.Size(100, 100);
@@ -87,6 +92,7 @@ namespace OOP_TicTacToe
             // 
             // button_6
             // 
+            this.button_6.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button_6.Location = new System.Drawing.Point(224, 156);
             this.button_6.Name = "button_6";
             this.button_6.Size = new System.Drawing.Size(100, 100);
@@ -96,6 +102,7 @@ namespace OOP_TicTacToe
             // 
             // button_7
             // 
+            this.button_7.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button_7.Location = new System.Drawing.Point(12, 262);
             this.button_7.Name = "button_7";
             this.button_7.Size = new System.Drawing.Size(100, 100);
@@ -105,6 +112,7 @@ namespace OOP_TicTacToe
             // 
             // button_8
             // 
+            this.button_8.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button_8.Location = new System.Drawing.Point(118, 262);
             this.button_8.Name = "button_8";
             this.button_8.Size = new System.Drawing.Size(100, 100);
@@ -114,6 +122,7 @@ namespace OOP_TicTacToe
             // 
             // button_9
             // 
+            this.button_9.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button_9.Location = new System.Drawing.Point(224, 262);
             this.button_9.Name = "button_9";
             this.button_9.Size = new System.Drawing.Size(100, 100);

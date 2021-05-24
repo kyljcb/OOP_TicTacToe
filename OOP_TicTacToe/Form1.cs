@@ -76,10 +76,12 @@ namespace OOP_TicTacToe
             if (check) 
             {
                 string winner = "";
-                if (player_Turn)
-                    winner = "X";
-                else 
+                // should be opposite of the similar code previously since when winner wins, it is technically "player_Turn"'s move. 
+
+                if (player_Turn) 
                     winner = "O";
+                else 
+                    winner = "X";
 
                 MessageBox.Show("The winner is: " + winner);
             }
