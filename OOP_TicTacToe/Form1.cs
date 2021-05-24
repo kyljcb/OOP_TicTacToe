@@ -39,6 +39,8 @@ namespace OOP_TicTacToe
             button.Enabled = false;
             turn_Count++;
 
+            winner_Check();
+
 
         }
 
