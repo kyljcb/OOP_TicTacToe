@@ -41,5 +41,39 @@ namespace OOP_TicTacToe
 
 
         }
+
+        private void winner_Check()
+        {
+            bool check = false;
+
+            // horizontal
+
+            if ((button_1.Text == button_2.Text) && (button_2.Text == button_3.Text))
+                check = true;
+            else if ((button_4.Text == button_5.Text) && (button_5.Text == button_6.Text))
+                check = true;
+            else if ((button_7.Text == button_8.Text) && (button_8.Text == button_9.Text))
+                check = true;
+
+
+            if (check) 
+            {
+                string winner = "";
+                if (player_Turn)
+                    winner = "X";
+                else 
+                    winner = "O";
+
+                MessageBox.Show("The winner is: " + winner);
+            }
+
+                  
+
+
+
+
+        }
+
     }
+        
 }
