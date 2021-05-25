@@ -77,7 +77,7 @@ namespace OOP_TicTacToe
             // for draw
             if (turn_Count == 9)
 
-                MessageBox.Show("Draw!");
+                MessageBox.Show("There is no winner!");
 
             // winner check
 
