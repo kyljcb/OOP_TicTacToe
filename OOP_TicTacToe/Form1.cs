@@ -50,29 +50,37 @@ namespace OOP_TicTacToe
 
             // horizontal
 
-            if ((button_1.Text == button_2.Text) && (button_2.Text == button_3.Text))
+            if ((button_1.Text == button_2.Text) && (button_2.Text == button_3.Text) && (!button_1.Enabled))
                 check = true;
-            else if ((button_4.Text == button_5.Text) && (button_5.Text == button_6.Text))
+            else if ((button_4.Text == button_5.Text) && (button_5.Text == button_6.Text) && (!button_4.Enabled))
                 check = true;
-            else if ((button_7.Text == button_8.Text) && (button_8.Text == button_9.Text))
+            else if ((button_7.Text == button_8.Text) && (button_8.Text == button_9.Text) && (!button_7.Enabled))
                 check = true;
 
             // vertical
 
-            if ((button_1.Text == button_4.Text) && (button_4.Text == button_7.Text))
+            // added (!button_no.Enabled) since the program reads the empty texts inside the buttons equal which satisfies our if statements.
+            if ((button_1.Text == button_4.Text) && (button_4.Text == button_7.Text) && (!button_1.Enabled))
                 check = true;
-            else if ((button_2.Text == button_5.Text) && (button_5.Text == button_8.Text))
+            else if ((button_2.Text == button_5.Text) && (button_5.Text == button_8.Text) && (!button_2.Enabled))
                 check = true;
-            else if ((button_3.Text == button_6.Text) && (button_6.Text == button_9.Text))
+            else if ((button_3.Text == button_6.Text) && (button_6.Text == button_9.Text) && (!button_3.Enabled))
                 check = true;
 
             // diagonal
 
-            if ((button_1.Text == button_5.Text) && (button_5.Text == button_9.Text))
+            if ((button_1.Text == button_5.Text) && (button_5.Text == button_9.Text) && (!button_1.Enabled))
                 check = true;
-            else if ((button_9.Text == button_5.Text) && (button_5.Text == button_7.Text))
+            else if ((button_9.Text == button_5.Text) && (button_5.Text == button_7.Text) && (!button_9.Enabled))
                 check = true;
-            
+
+            // for draw
+            if (turn_Count == 9)
+
+                MessageBox.Show("Draw!");
+
+            // winner check
+
             if (check) 
             {
                 string winner = "";
