@@ -74,17 +74,14 @@ namespace OOP_TicTacToe
             else if ((button_9.Text == button_5.Text) && (button_5.Text == button_7.Text) && (!button_9.Enabled))
                 check = true;
 
-            // for draw
-            if (turn_Count == 9)
-
-                MessageBox.Show("There is no winner!");
+            
 
             // winner check
 
             if (check) 
             {
                 string winner = "";
-                // should be opposite of the similar code previously since when winner wins, it is technically "player_Turn"'s move. 
+                // should be opposite of the similar code previously since when a winner wins, it is technically "player_Turn"'s move next. 
 
                 if (player_Turn) 
                     winner = "O";
@@ -93,7 +90,12 @@ namespace OOP_TicTacToe
 
                 MessageBox.Show("The winner is: " + winner);
             }
-
+            // draw check
+            else
+            {
+                if (turn_Count == 9)
+                    MessageBox.Show("There is no winner!");
+            }
                   
 
 
