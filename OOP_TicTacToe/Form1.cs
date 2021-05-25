@@ -103,6 +103,12 @@ namespace OOP_TicTacToe
 
         }
 
+        private void button_NewGame(object sender, EventArgs e)
+        {
+            
+
+            
+        }
     }
         
 }
