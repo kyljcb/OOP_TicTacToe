@@ -103,9 +103,12 @@ namespace OOP_TicTacToe
         {
             var new_Game = new Form1();
             new_Game.Show();
-            this.Close(); // close the previous form.
+            this.Hide();
+        }
 
-           
+        private void button_ExitGame(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
         
