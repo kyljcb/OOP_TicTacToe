@@ -103,7 +103,9 @@ namespace OOP_TicTacToe
         {
             var new_Game = new Form1();
             new_Game.Show();
+            this.Close(); // close the previous form.
 
+           
         }
     }
         
