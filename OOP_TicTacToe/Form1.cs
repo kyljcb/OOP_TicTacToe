@@ -41,7 +41,6 @@ namespace OOP_TicTacToe
 
             winner_Check();
 
-
         }
 
         private void winner_Check()
@@ -74,8 +73,6 @@ namespace OOP_TicTacToe
             else if ((button_9.Text == button_5.Text) && (button_5.Text == button_7.Text) && (!button_9.Enabled))
                 check = true;
 
-            
-
             // winner check
 
             if (check) 
@@ -103,12 +100,13 @@ namespace OOP_TicTacToe
         {
             var new_Game = new Form1();
             new_Game.Show();
-            this.Hide();
+            this.Hide(); // hides the previous form
         }
 
         private void button_ExitGame(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit(); // exits the application
+
         }
     }
         
