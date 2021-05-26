@@ -32,6 +32,7 @@ namespace OOP_TicTacToe
 
             if (player_Turn)
                 button.Text = "X";
+
             else
                 button.Text = "O";
 
@@ -75,14 +76,14 @@ namespace OOP_TicTacToe
 
             // winner check
 
-            if (check) 
+            if (check)
             {
                 string winner = "";
                 // should be opposite of the similar code previously since when a winner wins, it is technically "player_Turn"'s move next. 
 
-                if (player_Turn) 
+                if (player_Turn)
                     winner = "O";
-                else 
+                else
                     winner = "X";
 
                 MessageBox.Show("The winner is: " + winner);
@@ -93,7 +94,7 @@ namespace OOP_TicTacToe
                 if (turn_Count == 9)
                     MessageBox.Show("There is no winner!");
             }
-                  
+
         }
 
         private void button_NewGame(object sender, EventArgs e)
@@ -108,6 +109,11 @@ namespace OOP_TicTacToe
             Application.Exit(); // exits the application
 
         }
+
+        private void Form1_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
     }
-        
 }

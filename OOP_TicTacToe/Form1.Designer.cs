@@ -45,7 +45,8 @@ namespace OOP_TicTacToe
             // button_1
             // 
             this.button_1.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button_1.Location = new System.Drawing.Point(12, 50);
+            this.button_1.ForeColor = System.Drawing.Color.Black;
+            this.button_1.Location = new System.Drawing.Point(13, 22);
             this.button_1.Name = "button_1";
             this.button_1.Size = new System.Drawing.Size(100, 100);
             this.button_1.TabIndex = 0;
@@ -55,7 +56,7 @@ namespace OOP_TicTacToe
             // button_2
             // 
             this.button_2.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button_2.Location = new System.Drawing.Point(118, 50);
+            this.button_2.Location = new System.Drawing.Point(119, 22);
             this.button_2.Name = "button_2";
             this.button_2.Size = new System.Drawing.Size(100, 100);
             this.button_2.TabIndex = 1;
@@ -65,7 +66,7 @@ namespace OOP_TicTacToe
             // button_3
             // 
             this.button_3.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button_3.Location = new System.Drawing.Point(224, 50);
+            this.button_3.Location = new System.Drawing.Point(225, 22);
             this.button_3.Name = "button_3";
             this.button_3.Size = new System.Drawing.Size(100, 100);
             this.button_3.TabIndex = 2;
@@ -75,7 +76,7 @@ namespace OOP_TicTacToe
             // button_4
             // 
             this.button_4.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button_4.Location = new System.Drawing.Point(12, 156);
+            this.button_4.Location = new System.Drawing.Point(13, 128);
             this.button_4.Name = "button_4";
             this.button_4.Size = new System.Drawing.Size(100, 100);
             this.button_4.TabIndex = 3;
@@ -85,7 +86,7 @@ namespace OOP_TicTacToe
             // button_5
             // 
             this.button_5.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button_5.Location = new System.Drawing.Point(118, 156);
+            this.button_5.Location = new System.Drawing.Point(119, 128);
             this.button_5.Name = "button_5";
             this.button_5.Size = new System.Drawing.Size(100, 100);
             this.button_5.TabIndex = 4;
@@ -95,7 +96,7 @@ namespace OOP_TicTacToe
             // button_6
             // 
             this.button_6.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button_6.Location = new System.Drawing.Point(224, 156);
+            this.button_6.Location = new System.Drawing.Point(225, 128);
             this.button_6.Name = "button_6";
             this.button_6.Size = new System.Drawing.Size(100, 100);
             this.button_6.TabIndex = 5;
@@ -105,7 +106,7 @@ namespace OOP_TicTacToe
             // button_7
             // 
             this.button_7.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button_7.Location = new System.Drawing.Point(12, 262);
+            this.button_7.Location = new System.Drawing.Point(13, 234);
             this.button_7.Name = "button_7";
             this.button_7.Size = new System.Drawing.Size(100, 100);
             this.button_7.TabIndex = 6;
@@ -115,7 +116,7 @@ namespace OOP_TicTacToe
             // button_8
             // 
             this.button_8.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button_8.Location = new System.Drawing.Point(118, 262);
+            this.button_8.Location = new System.Drawing.Point(119, 234);
             this.button_8.Name = "button_8";
             this.button_8.Size = new System.Drawing.Size(100, 100);
             this.button_8.TabIndex = 7;
@@ -125,7 +126,7 @@ namespace OOP_TicTacToe
             // button_9
             // 
             this.button_9.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button_9.Location = new System.Drawing.Point(224, 262);
+            this.button_9.Location = new System.Drawing.Point(225, 234);
             this.button_9.Name = "button_9";
             this.button_9.Size = new System.Drawing.Size(100, 100);
             this.button_9.TabIndex = 8;
@@ -136,7 +137,7 @@ namespace OOP_TicTacToe
             // 
             this.button1.BackColor = System.Drawing.SystemColors.Control;
             this.button1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(12, 394);
+            this.button1.Location = new System.Drawing.Point(12, 353);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(149, 41);
             this.button1.TabIndex = 9;
@@ -148,7 +149,7 @@ namespace OOP_TicTacToe
             // 
             this.button3.BackColor = System.Drawing.SystemColors.Control;
             this.button3.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button3.Location = new System.Drawing.Point(175, 394);
+            this.button3.Location = new System.Drawing.Point(175, 353);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(149, 41);
             this.button3.TabIndex = 10;
@@ -160,7 +161,8 @@ namespace OOP_TicTacToe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(337, 460);
+            this.BackColor = System.Drawing.Color.Silver;
+            this.ClientSize = new System.Drawing.Size(337, 404);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button_9);
@@ -172,9 +174,13 @@ namespace OOP_TicTacToe
             this.Controls.Add(this.button_3);
             this.Controls.Add(this.button_2);
             this.Controls.Add(this.button_1);
+            this.ForeColor = System.Drawing.Color.Black;
+            this.MaximumSize = new System.Drawing.Size(355, 451);
+            this.MinimumSize = new System.Drawing.Size(355, 451);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TicTacToe";
+            this.Load += new System.EventHandler(this.Form1_Load_1);
             this.ResumeLayout(false);
 
         }
