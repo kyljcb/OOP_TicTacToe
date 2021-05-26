@@ -97,17 +97,13 @@ namespace OOP_TicTacToe
                     MessageBox.Show("There is no winner!");
             }
                   
-
-
-
-
         }
 
         private void button_NewGame(object sender, EventArgs e)
         {
-            
+            var new_Game = new Form1();
+            new_Game.Show();
 
-            
         }
     }
         
