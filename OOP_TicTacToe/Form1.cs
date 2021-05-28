@@ -30,15 +30,15 @@ namespace OOP_TicTacToe
         {
             Button button = (Button)sender;
 
-            if (player_Turn)
+            if (player_Turn) // acts as player 1
                 button.Text = "X";
 
-            else
+            else // acts as player 2
                 button.Text = "O";
 
-            player_Turn = !player_Turn;
-            button.Enabled = false;
-            turn_Count++;
+            player_Turn = !player_Turn; // function so that program knows whose turn it is. 
+            button.Enabled = false; // function so that the button can not change once pressed.
+            turn_Count++; // for draw check.
 
             winner_Check();
 
@@ -48,8 +48,8 @@ namespace OOP_TicTacToe
         {
             bool check = false;
 
-            // horizontal
-
+            // horizontal check
+            // added (!button_no.Enabled) since the program reads the empty texts inside the buttons equal which satisfies our if statements.
             if ((button_1.Text == button_2.Text) && (button_2.Text == button_3.Text) && (!button_1.Enabled))
                 check = true;
             else if ((button_4.Text == button_5.Text) && (button_5.Text == button_6.Text) && (!button_4.Enabled))
@@ -57,9 +57,9 @@ namespace OOP_TicTacToe
             else if ((button_7.Text == button_8.Text) && (button_8.Text == button_9.Text) && (!button_7.Enabled))
                 check = true;
 
-            // vertical
+            // vertical check 
 
-            // added (!button_no.Enabled) since the program reads the empty texts inside the buttons equal which satisfies our if statements.
+            
             if ((button_1.Text == button_4.Text) && (button_4.Text == button_7.Text) && (!button_1.Enabled))
                 check = true;
             else if ((button_2.Text == button_5.Text) && (button_5.Text == button_8.Text) && (!button_2.Enabled))
@@ -67,14 +67,14 @@ namespace OOP_TicTacToe
             else if ((button_3.Text == button_6.Text) && (button_6.Text == button_9.Text) && (!button_3.Enabled))
                 check = true;
 
-            // diagonal
+            // diagonal check
 
             if ((button_1.Text == button_5.Text) && (button_5.Text == button_9.Text) && (!button_1.Enabled))
                 check = true;
             else if ((button_9.Text == button_5.Text) && (button_5.Text == button_7.Text) && (!button_9.Enabled))
                 check = true;
 
-            // winner check
+            // final winner check
 
             if (check)
             {
@@ -91,7 +91,7 @@ namespace OOP_TicTacToe
             // draw check
             else
             {
-                if (turn_Count == 9)
+                if (turn_Count == 9) 
                     MessageBox.Show("There is no winner!");
             }
 
@@ -115,5 +115,10 @@ namespace OOP_TicTacToe
 
         }
 
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit(); // exit application when pressing the "x" button. 
+        }
     }
 }
