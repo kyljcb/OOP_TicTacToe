@@ -71,7 +71,7 @@ namespace OOP_TicTacToe
 
             if ((button_1.Text == button_5.Text) && (button_5.Text == button_9.Text) && (!button_1.Enabled))
                 check = true;
-            else if ((button_9.Text == button_5.Text) && (button_5.Text == button_7.Text) && (!button_9.Enabled))
+            else if((button_3.Text == button_5.Text) && (button_5.Text == button_7.Text) && (!button_3.Enabled))
                 check = true;
 
             // final winner check
