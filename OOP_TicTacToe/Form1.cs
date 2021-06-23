@@ -120,5 +120,10 @@ namespace OOP_TicTacToe
         {
             Application.Exit(); // exit application when pressing the "x" button. 
         }
+
+        private void x_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
