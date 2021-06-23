@@ -84,13 +84,13 @@ namespace OOP_TicTacToe
                 if (player_Turn)
                 {
                     winner = "O";
-                    oScore.Text = oScore.Text + 1;
+                    oScore.Text = (Int32.Parse(oScore.Text) + 1).ToString();
                 }
                    
                 else
                 {
                     winner = "X";
-                    xScore.Text = xScore.Text + 1;
+                    xScore.Text = (Int32.Parse(xScore.Text) + 1).ToString();
                 }
                     
                 MessageBox.Show("The winner is: " + winner);
@@ -101,10 +101,8 @@ namespace OOP_TicTacToe
                 if (turn_Count == 9)
                 {
                     MessageBox.Show("There is no winner!");
-                    drawScore.Text = drawScore.Text + 1;
+                    drawScore.Text = (Int32.Parse(drawScore.Text) + 1).ToString();
                 }
-                    
-
             }
 
         }
