@@ -109,9 +109,17 @@ namespace OOP_TicTacToe
 
         private void button_NewGame(object sender, EventArgs e)
         {
-            var new_Game = new Form1();
-            new_Game.Show();
-            this.Hide(); // hides the previous form
+           foreach (Control c in Controls)
+            {
+                try
+                {
+                    Button button = (Button)c;
+                    button.Enabled = true;
+                    button.Text = "";
+                }
+                catch { }
+                
+            }
         }
 
         private void button_ExitGame(object sender, EventArgs e)
