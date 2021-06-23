@@ -334,13 +334,13 @@
     <value>True</value>
   </data>
   <data name="xCount.Font" type="System.Drawing.Font, System.Drawing.Common">
-    <value>Segoe UI, 18pt, style=Bold, Underline</value>
+    <value>Segoe UI, 19.800001pt, style=Bold, Underline</value>
   </data>
   <data name="xCount.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>80, 9</value>
+    <value>298, 4</value>
   </data>
   <data name="xCount.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>38, 41</value>
+    <value>42, 46</value>
   </data>
   <data name="xCount.TabIndex" type="System.Int32, System.Private.CoreLib">
     <value>11</value>
@@ -395,7 +395,7 @@
     <value>Segoe UI, 18pt, style=Bold, Underline</value>
   </data>
   <data name="drawCount.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>157, 9</value>
+    <value>165, 9</value>
   </data>
   <data name="drawCount.Size" type="System.Drawing.Size, System.Drawing.Primitives">
     <value>92, 41</value>
@@ -422,13 +422,13 @@
     <value>True</value>
   </data>
   <data name="oCount.Font" type="System.Drawing.Font, System.Drawing.Common">
-    <value>Segoe UI, 18pt, style=Bold, Underline</value>
+    <value>Segoe UI, 19.800001pt, style=Bold, Underline</value>
   </data>
   <data name="oCount.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>298, 9</value>
+    <value>80, 9</value>
   </data>
   <data name="oCount.Size" type="System.Drawing.Size, System.Drawing.Primitives">
-    <value>41, 41</value>
+    <value>46, 46</value>
   </data>
   <data name="oCount.TabIndex" type="System.Int32, System.Private.CoreLib">
     <value>13</value>
@@ -455,7 +455,7 @@
     <value>Segoe UI, 16.2pt, style=Bold</value>
   </data>
   <data name="xScore.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>80, 50</value>
+    <value>298, 50</value>
   </data>
   <data name="xScore.Size" type="System.Drawing.Size, System.Drawing.Primitives">
     <value>33, 38</value>
@@ -485,7 +485,7 @@
     <value>Segoe UI, 16.2pt, style=Bold</value>
   </data>
   <data name="drawScore.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>188, 50</value>
+    <value>193, 50</value>
   </data>
   <data name="drawScore.Size" type="System.Drawing.Size, System.Drawing.Primitives">
     <value>33, 38</value>
@@ -518,7 +518,7 @@
     <value>NoControl</value>
   </data>
   <data name="oScore.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>298, 50</value>
+    <value>80, 50</value>
   </data>
   <data name="oScore.Size" type="System.Drawing.Size, System.Drawing.Primitives">
     <value>33, 38</value>
@@ -549,6 +549,12 @@
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing.Primitives">
     <value>417, 498</value>
+  </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>435, 545</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>435, 545</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>

@@ -117,18 +117,12 @@ namespace OOP_TicTacToe
                 {
                     Button button = (Button)c;
                     button.Enabled = true;
-                    button.Text = ""; 
-                }
-                catch { }
-                textReset = true;
-
-
-                if (textReset)
-                {
+                    button.Text = "";
                     newGame.Text = "New Game";
                     exitGame.Text = "Exit Game";
+                    turn_Count = 0;
                 }
-                    
+                catch { }
 
             }
         }
