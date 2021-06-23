@@ -41,13 +41,13 @@ namespace OOP_TicTacToe
             this.button_9 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.x = new System.Windows.Forms.Label();
+            this.xCount = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.drawCount = new System.Windows.Forms.Label();
+            this.oCount = new System.Windows.Forms.Label();
+            this.xScore = new System.Windows.Forms.Label();
+            this.drawScore = new System.Windows.Forms.Label();
+            this.oScore = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button_1
@@ -130,11 +130,11 @@ namespace OOP_TicTacToe
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button_ExitGame);
             // 
-            // x
+            // xCount
             // 
-            resources.ApplyResources(this.x, "x");
-            this.x.Name = "x";
-            this.x.Click += new System.EventHandler(this.x_Click);
+            resources.ApplyResources(this.xCount, "xCount");
+            this.xCount.Name = "xCount";
+            this.xCount.Click += new System.EventHandler(this.x_Click);
             // 
             // label2
             // 
@@ -142,42 +142,42 @@ namespace OOP_TicTacToe
             this.label2.Name = "label2";
             this.label2.Click += new System.EventHandler(this.x_Click);
             // 
-            // label1
+            // drawCount
             // 
-            resources.ApplyResources(this.label1, "label1");
-            this.label1.Name = "label1";
+            resources.ApplyResources(this.drawCount, "drawCount");
+            this.drawCount.Name = "drawCount";
             // 
-            // label3
+            // oCount
             // 
-            resources.ApplyResources(this.label3, "label3");
-            this.label3.Name = "label3";
+            resources.ApplyResources(this.oCount, "oCount");
+            this.oCount.Name = "oCount";
             // 
-            // label4
+            // xScore
             // 
-            resources.ApplyResources(this.label4, "label4");
-            this.label4.Name = "label4";
+            resources.ApplyResources(this.xScore, "xScore");
+            this.xScore.Name = "xScore";
             // 
-            // label5
+            // drawScore
             // 
-            resources.ApplyResources(this.label5, "label5");
-            this.label5.Name = "label5";
+            resources.ApplyResources(this.drawScore, "drawScore");
+            this.drawScore.Name = "drawScore";
             // 
-            // label6
+            // oScore
             // 
-            resources.ApplyResources(this.label6, "label6");
-            this.label6.Name = "label6";
+            resources.ApplyResources(this.oScore, "oScore");
+            this.oScore.Name = "oScore";
             // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.x);
+            this.Controls.Add(this.oScore);
+            this.Controls.Add(this.drawScore);
+            this.Controls.Add(this.xScore);
+            this.Controls.Add(this.oCount);
+            this.Controls.Add(this.drawCount);
+            this.Controls.Add(this.xCount);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button_9);
@@ -211,13 +211,15 @@ namespace OOP_TicTacToe
         private System.Windows.Forms.Button button_2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Label x;
+        private System.Windows.Forms.Label xCount;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label oCount;
+        private System.Windows.Forms.Label xScore;
+        private System.Windows.Forms.Label d;
+        private System.Windows.Forms.Label oScore;
+        private System.Windows.Forms.Label drawCount;
+        private System.Windows.Forms.Label drawScore;
     }
 }
 

@@ -82,17 +82,29 @@ namespace OOP_TicTacToe
                 // should be opposite of the similar code previously since when a winner wins, it is technically "player_Turn"'s move next. 
 
                 if (player_Turn)
+                {
                     winner = "O";
+                    oScore.Text = oScore.Text + 1;
+                }
+                   
                 else
+                {
                     winner = "X";
-
+                    xScore.Text = xScore.Text + 1;
+                }
+                    
                 MessageBox.Show("The winner is: " + winner);
             }
             // draw check
             else
             {
-                if (turn_Count == 9) 
+                if (turn_Count == 9)
+                {
                     MessageBox.Show("There is no winner!");
+                    drawScore.Text = drawScore.Text + 1;
+                }
+                    
+
             }
 
         }
