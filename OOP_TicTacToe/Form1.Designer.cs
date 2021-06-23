@@ -39,8 +39,8 @@ namespace OOP_TicTacToe
             this.button_7 = new System.Windows.Forms.Button();
             this.button_8 = new System.Windows.Forms.Button();
             this.button_9 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.newGame = new System.Windows.Forms.Button();
+            this.exitGame = new System.Windows.Forms.Button();
             this.xCount = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.drawCount = new System.Windows.Forms.Label();
@@ -114,21 +114,21 @@ namespace OOP_TicTacToe
             this.button_9.UseVisualStyleBackColor = true;
             this.button_9.Click += new System.EventHandler(this.button_Click);
             // 
-            // button1
+            // newGame
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.Control;
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button_NewGame);
+            this.newGame.BackColor = System.Drawing.SystemColors.Control;
+            resources.ApplyResources(this.newGame, "newGame");
+            this.newGame.Name = "newGame";
+            this.newGame.UseVisualStyleBackColor = false;
+            this.newGame.Click += new System.EventHandler(this.button_NewGame);
             // 
-            // button3
+            // exitGame
             // 
-            this.button3.BackColor = System.Drawing.SystemColors.Control;
-            resources.ApplyResources(this.button3, "button3");
-            this.button3.Name = "button3";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button_ExitGame);
+            this.exitGame.BackColor = System.Drawing.SystemColors.Control;
+            resources.ApplyResources(this.exitGame, "exitGame");
+            this.exitGame.Name = "exitGame";
+            this.exitGame.UseVisualStyleBackColor = false;
+            this.exitGame.Click += new System.EventHandler(this.button_ExitGame);
             // 
             // xCount
             // 
@@ -178,8 +178,8 @@ namespace OOP_TicTacToe
             this.Controls.Add(this.oCount);
             this.Controls.Add(this.drawCount);
             this.Controls.Add(this.xCount);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.exitGame);
+            this.Controls.Add(this.newGame);
             this.Controls.Add(this.button_9);
             this.Controls.Add(this.button_8);
             this.Controls.Add(this.button_7);
@@ -209,8 +209,8 @@ namespace OOP_TicTacToe
         private System.Windows.Forms.Button button_8;
         private System.Windows.Forms.Button button_9;
         private System.Windows.Forms.Button button_2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button newGame;
+        private System.Windows.Forms.Button exitGame;
         private System.Windows.Forms.Label xCount;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;

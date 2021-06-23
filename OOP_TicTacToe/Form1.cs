@@ -14,7 +14,9 @@ namespace OOP_TicTacToe
     {
 
         bool player_Turn = true;
+        bool textReset = false;
         int turn_Count = 0;
+        
 
         public Form1()
         {
@@ -115,10 +117,19 @@ namespace OOP_TicTacToe
                 {
                     Button button = (Button)c;
                     button.Enabled = true;
-                    button.Text = "";
+                    button.Text = ""; 
                 }
                 catch { }
-                
+                textReset = true;
+
+
+                if (textReset)
+                {
+                    newGame.Text = "New Game";
+                    exitGame.Text = "Exit Game";
+                }
+                    
+
             }
         }
 

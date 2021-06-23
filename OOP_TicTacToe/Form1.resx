@@ -276,58 +276,58 @@
   <data name="&gt;&gt;button_9.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="button1.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="newGame.Font" type="System.Drawing.Font, System.Drawing.Common">
     <value>Segoe UI, 10.2pt, style=Bold</value>
   </data>
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="newGame.Location" type="System.Drawing.Point, System.Drawing.Primitives">
     <value>50, 428</value>
   </data>
-  <data name="button1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="newGame.Size" type="System.Drawing.Size, System.Drawing.Primitives">
     <value>149, 41</value>
   </data>
-  <data name="button1.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="newGame.TabIndex" type="System.Int32, System.Private.CoreLib">
     <value>9</value>
   </data>
-  <data name="button1.Text" xml:space="preserve">
+  <data name="newGame.Text" xml:space="preserve">
     <value>New Game</value>
   </data>
-  <data name="&gt;&gt;button1.Name" xml:space="preserve">
-    <value>button1</value>
+  <data name="&gt;&gt;newGame.Name" xml:space="preserve">
+    <value>newGame</value>
   </data>
-  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+  <data name="&gt;&gt;newGame.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;newGame.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;newGame.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="button3.Font" type="System.Drawing.Font, System.Drawing.Common">
+  <data name="exitGame.Font" type="System.Drawing.Font, System.Drawing.Common">
     <value>Segoe UI, 10.2pt, style=Bold</value>
   </data>
-  <data name="button3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="exitGame.Location" type="System.Drawing.Point, System.Drawing.Primitives">
     <value>213, 428</value>
   </data>
-  <data name="button3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="exitGame.Size" type="System.Drawing.Size, System.Drawing.Primitives">
     <value>149, 41</value>
   </data>
-  <data name="button3.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="exitGame.TabIndex" type="System.Int32, System.Private.CoreLib">
     <value>10</value>
   </data>
-  <data name="button3.Text" xml:space="preserve">
+  <data name="exitGame.Text" xml:space="preserve">
     <value>Exit Game</value>
   </data>
-  <data name="&gt;&gt;button3.Name" xml:space="preserve">
-    <value>button3</value>
+  <data name="&gt;&gt;exitGame.Name" xml:space="preserve">
+    <value>exitGame</value>
   </data>
-  <data name="&gt;&gt;button3.Type" xml:space="preserve">
+  <data name="&gt;&gt;exitGame.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
+  <data name="&gt;&gt;exitGame.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;exitGame.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
   <data name="xCount.AutoSize" type="System.Boolean, System.Private.CoreLib">
